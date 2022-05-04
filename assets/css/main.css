@@ -206,7 +206,7 @@ a {
 	-webkit-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	-ms-transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
 	transition: color 0.2s ease-in-out, border-color 0.2s ease-in-out;
-	border-bottom: dotted 1px;
+	/*border-bottom: dotted 1px;*/
 	color: #49bf9d;
 	text-decoration: none;
 }
@@ -216,6 +216,8 @@ a:hover {
 	color: #49bf9d !important;
 	text-decoration: none;
 }
+
+
 
 strong,
 b {
@@ -229,6 +231,7 @@ i {
 }
 
 p {
+
 	text-align: justify;
 	color: #777777;
 	margin: 0 0 2em 0;
@@ -2684,12 +2687,12 @@ input[type="button"]:disabled,
 }
 
 .work-item h3 {
-	font-size: 1em;
+	font-size: 1.05em;
 	margin: 0 0 0.5em 0;
 }
 
 .work-item p {
-	font-size: 0.8em;
+	font-size: 0.89em;
 	line-height: 1.5em;
 	margin: 0;
 }
@@ -3299,7 +3302,7 @@ body.is-touch .poptrox-popup .closer {
 	}
 
 	#header h1 {
-		font-size: 1.35em;
+		font-size: 1.2em;
 	}
 
 	/* Footer */
@@ -3397,17 +3400,23 @@ body.is-touch .poptrox-popup .closer {
 	margin-bottom: 0;
 }
 
+
+
 @media screen and (max-width: 980px) {
 
 	.features li {
 		width: calc(50% - 2em);
 	}
 
-	.features li:nth-child(3) {
+	/*.features li:nth-child(3) {
+		margin-top: 3em;
+	}*/
+	.featureh3 {
 		margin-top: 3em;
 	}
-
 }
+
+
 
 @media screen and (max-width: 736px) {
 
@@ -3419,14 +3428,13 @@ body.is-touch .poptrox-popup .closer {
 	.features li {
 		width: 100%;
 		margin-left: 0;
-		margin-top: 2em;
+		margin-top: 1em;
 	}
 
 	.features li:nth-child(2),
 	.features li:nth-child(3) {
-		margin-top: 2em;
+		margin-top: 1em;
 	}
-
 }
 
 body {
@@ -3453,8 +3461,8 @@ body {
 	background-color: #ffffff;
 	color: #636363;
 	position: absolute;
-	width: 104em;
-	max-width: calc(100% - 4em);
+	width: 100%;
+	/*max-width: calc(100% - 4em);*/
 	padding: 1em;
 	background-color: #f7f7f7;
 	border-top-left-radius: 0.25em;
@@ -3542,7 +3550,7 @@ body {
 }
 
 #nav ul li a.active {
-	background-color: #ffffff;
+	/*background-color: #ffffff;*/
 	box-shadow: none;
 }
 
@@ -3568,6 +3576,7 @@ body {
 
 	#nav {
 		display: none;
+
 	}
 
 	#nav+#main {
